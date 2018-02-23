@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /CodeIgniter-3.1.7
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^ index.php [QSA,L]
+</IfModule>
